@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
